@@ -36,6 +36,9 @@ body {
 
 .main-content {
     padding: 30px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 25px;
 }
 
 .nav-link {
@@ -143,4 +146,32 @@ body {
     border-radius: 20px;
     border: none;
     font-weight: bolder;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.card-action {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: auto;
+    padding: 15px;
+}
+
+.card-action-icon {
+    height: 25px;
 }
