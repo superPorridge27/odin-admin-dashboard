@@ -182,6 +182,7 @@ body {
     display: -webkit-box; /* Required for -webkit-line-clamp to work */
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
+    font-size: small;
 }
 
 .announcement-card {
