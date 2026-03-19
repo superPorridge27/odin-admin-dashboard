@@ -152,6 +152,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+    margin-top: 20px;
 }
 
 .card {
@@ -174,4 +175,26 @@ body {
 
 .card-action-icon {
     height: 25px;
+}
+
+.truncate-span {
+    overflow: hidden;
+    display: -webkit-box; /* Required for -webkit-line-clamp to work */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.announcement-card {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.announcement-info {
+    display: flex;
+    flex-direction: column;
 }
