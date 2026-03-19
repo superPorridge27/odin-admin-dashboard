@@ -198,3 +198,33 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.trending {
+    margin-top: 20px;
+}
+
+.trending-card {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trending-row {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.trending-acc-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.acc-desc {
+    color: #404244;
+    font-size: small;
+}
