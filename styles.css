@@ -54,8 +54,12 @@ body {
 
 .nav-list li {
     list-style-type: none;
+    padding: 5px;
 }
 
+.sidebar img {
+    filter: invert();
+}
 .sidebar .nav-title {
     text-decoration: none;
     color: white;
@@ -67,4 +71,38 @@ body {
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar, .profile-small {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons-header {
+    max-width: 25px;
+}
+
+.avatar-small {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#search-input {
+    background-color: #e2e8f0; /* Softer gray */
+    border: none;
+    border-radius: 16px; /* Fixed pixels for clean, round corners */
+    padding: 8px 16px; 
+    outline: none; /* Removes the harsh blue ring when you click inside it */
+    width: 50vw;
+}
+
+.username {
+    width: 200px;
 }
