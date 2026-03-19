@@ -40,4 +40,31 @@ body {
 
 .nav-link {
     display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-list img {
+    height: 35px;
+}
+
+.nav-title img {
+    height: 50px;
+}
+
+.nav-list li {
+    list-style-type: none;
+}
+
+.sidebar .nav-title {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
