@@ -18,9 +18,14 @@ body {
 
 .sidebar {
     grid-row: span 2;
-    background-color: #1992d4; /* The Odin Project's blue */
+    background-color: #1992d4; /* The Odin Project blue */
     color: white;
     padding: 20px;
+    
+    /* Flexbox for the inner layout */
+    display: flex;
+    flex-direction: column;
+    gap: 50px; 
 }
 
 .header {
@@ -31,4 +36,8 @@ body {
 
 .main-content {
     padding: 30px;
+}
+
+.nav-link {
+    display: flex;
 }
